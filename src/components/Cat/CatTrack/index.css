@@ -1,0 +1,36 @@
+.cat-track-container {
+  margin-bottom: 1rem;
+}
+
+.cat-track-controls {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.cat-track {
+  height: 50px;
+  position: relative;
+  background: #638e9e;
+  border-radius: 5px;
+  margin-left: 1rem;
+  box-shadow:
+    2px 2px 0px #f5e5ff,
+    4px 4px 0px #638e9e;
+}
+
+.cat-track-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 4px;
+
+  background: repeating-linear-gradient(
+    90deg,
+    #fff,
+    #fff 1rem,
+    transparent 1rem,
+    transparent 2rem
+  );
+}
