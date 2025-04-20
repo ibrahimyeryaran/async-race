@@ -8,12 +8,12 @@ function CustomFooter() {
     <Footer className="footer">
       <div className="footer-content">
         <a
-          href="https://github.com/seygorin"
+          href="https://github.com/ibrahimyeryaran"
           target="_blank"
           rel="noopener noreferrer"
           className="github-link"
         >
-          <span className="link-text">GitHub: seygorin</span>
+          <span className="link-text">GitHub: ibrahimyeryaran</span>
         </a>
       </div>
     </Footer>
